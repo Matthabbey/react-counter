@@ -32,7 +32,7 @@ renderTags(){
    
     return (
       <React.Fragment>
-        <img src={this.state.imageUrl} alt=""/>
+        {/* <img src={this.state.imageUrl} alt=""/> */}
         <h1 className={this.getBadgeClasses()}>{this.formatCount()}</h1>
         <button onClick={this.handleIncrement} className="btn btn-secondary btn-sm m-2">Increment</button>
         <button onClick={this.handleDecrement} className="btn btn-secondary btn-sm m-2">Decrement</button>
